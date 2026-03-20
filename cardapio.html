@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cardápio - Cantina SENAI 4.02</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo-header">
+        <img src="img/logo.png" alt="Logo Cantina SENAI">
+      </div>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <ul id="menu" class="hidden">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="pedido.html">Pedidos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Nossas Marmitas</h2>
+
+    <div class="marmita">
+      <img src="img/marmitafrango.jpg" alt="Marmita de Frango">
+      <h3>Marmita de Frango</h3>
+      <p>Arroz, feijão, frango empanado crocante e batatas fritas.</p>
+      <button onclick="location.href='pedido.html'">Peça agora</button>
+    </div>
+
+    <div class="marmita">
+      <img src="img/marmitaomelete.jpg" alt="Marmita de Omelete">
+      <h3>Marmita de Omelete</h3>
+      <p>Arroz, omelete macio e batatas fritas crocantes.</p>
+      <button onclick="location.href='pedido.html'">Peça agora</button>
+    </div>
+
+    <div class="marmita">
+      <img src="img/marmitabife.jpg" alt="Marmita de Bife">
+      <h3>Marmita de Bife</h3>
+      <p>Arroz, bife acebolado suculento e batatas fritas.</p>
+      <button onclick="location.href='pedido.html'">Peça agora</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

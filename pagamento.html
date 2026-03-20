@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Pagamento do Pedido - Cantina SENAI 4.02</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo-header">
+        <img src="img/logo.png" alt="Logo Cantina SENAI">
+      </div>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <ul id="menu" class="hidden">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="cardapio.html">Cardápio</a></li>
+        <li><a href="pedido.html">Pedidos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="pagamento">
+    <h2>Pagamento do Pedido</h2>
+
+    <div class="pedido-info">
+      <h3>Marmita de Frango</h3>
+      <p>Quant.: P - R$18,00</p>
+    </div>
+
+    <div class="dados-cliente">
+      <h3>Dados do cliente:</h3>
+      <input type="text" placeholder="Insira seu nome">
+      <input type="text" placeholder="Insira seu horário do almoço">
+    </div>
+
+    <div class="forma-pagamento">
+      <h3>Forma de Pagamento:</h3>
+      <button onclick="location.href='concluir.html'">Pague agora</button>
+      <p>Pagamentos realizados no momento da retirada da marmita</p>
+      <label><input type="radio" name="pagamento"> Cartão de débito/crédito</label><br>
+      <label><input type="radio" name="pagamento"> Dinheiro</label>
+    </div>
+
+    <button class="pedido-btn" onclick="location.href='pedido.html'">Pedido</button>
+  </main>
+
+  <footer>
+    <p>Cantina SENAI 4.02 — Sabor e praticidade no SENAI</p>
+    <p>Contato: (00) 00000-0000</p>
+    <p>© 2024 Cantina SENAI 4.02. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

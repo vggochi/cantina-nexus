@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff; /* fundo branco */
+  color: #333;
+  text-align: center;
+}
+
+/* Cabeçalho */
+header {
+  background: #C8102E; /* vermelho institucional */
+  padding: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* logo à esquerda, menu à direita */
+  align-items: center;
+}
+
+.logo-header {
+  display: flex;
+  align-items: center;
+}
+
+.logo-header img {
+  height: 35px;   /* logo menor no header */
+  width: auto;
+}
+
+/* Logo geral para todas as páginas secundárias */
+.logo-geral img {
+  height: 40px;   /* tamanho padrão menor */
+  width: auto;
+  margin-left: 15px; /* espaço da borda esquerda */
+}
+
+
+
+
+.hamburger {
+  font-size: 28px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #F4B400; /* amarelo */
+  position: absolute;
+  right: 10px;
+  top: 60px;
+  border-radius: 6px;
+}
+
+ul li {
+  margin: 10px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Rodapé */
+footer {
+  margin-top: 10vh;
+  text-align: center;
+  padding: 5vh;
+  font-size: 0.9rem;
+  color: #fff;
+  background-color: #C8102E;
+}
+
+/* Conteúdo principal centralizado */
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* centraliza vertical */
+  align-items: center;       /* centraliza horizontal */
+  height: 100vh;             /* ocupa toda a altura da tela */
+  text-align: center;
+}
+
+.logo-central img {
+  width: 300px; /* logo grande */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #000000;
+  font-weight: 600;
+}
+
+p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+button {
+  background: #F4B400; /* amarelo */
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #C8102E; /* vermelho ao passar o mouse */
+}
+
+/* Ícone WhatsApp */
+.link-whatsapp img {
+  height: 6vh;
+  position: fixed;
+  right: 2vw;
+  bottom: 2vh;
+}
+
+/* Cardápio */
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #F4B400; /* amarelo */
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.marmita {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  text-align: center;
+}
+
+.marmita img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.marmita h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.marmita p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.marmita button {
+  background: #F4B400; /* amarelo */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.marmita button:hover {
+  background: #C8102E; /* vermelho */
+}
